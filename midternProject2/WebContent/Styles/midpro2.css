@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif TC', serif;
+}
+
+.cForm {
+	border: 3px solid rgb(77, 58, 58);
+	width: 800px;
+	margin: auto;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	background: rgb(247, 243, 209);
+}
+
+form div {
+	font-size: 1.5em;
+	padding-top: 0.5em;
+	border-bottom: 1px solid rgb(50, 57, 97);
+}
+
+input {
+	font-size: 1em;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+select {
+	font-size: 1em;
+	margin-left: 1em;
+	margin-bottom: 0.3em;
+}
+
+.button {
+	text-align: center;
+	border-bottom: 0;
+}
+
+.inputdata {
+	padding-left: 3em;
+}
+
+.titleText {
+	padding-top: 0em;
+	text-align: center;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+h3 {
+	color: red;
+	display: inline;
+}
+
+.p1 {
+	opacity: 0;
+	width:400px;
+}
+
+.p2 {
+	opacity: 1;
+	width:400px;
+}
+
+* {
+	transition: opacity 1500ms;
+}
